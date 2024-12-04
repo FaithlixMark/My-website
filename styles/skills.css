@@ -1,0 +1,105 @@
+.Skills {
+    padding: 20px;
+    min-height: 1000px;
+    background-color: rgb(200, 200, 200);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.skills-title{
+    font-size: clamp(30px, 5vw, 48px);
+    font-weight: bold;
+    padding: 10px;
+}
+.skills-grid{
+    min-width: 75%;
+    max-height: 60%;
+    background-color: rgb(35, 35, 35);  
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+.front-end-grid, .back-end-grid, .more-grid{
+    min-width: 70%;
+    max-height: 20%;
+    border: dashed;
+    border-color: white;
+    border-radius: 10px;
+    margin-bottom:20px;
+}
+.icon-container{
+    padding: 10px
+}
+.front-end-icons, .back-end-icons, .more-icons{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    grid-auto-rows: 1fr;
+
+    @media ( width>=40em){
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media ( width>=1030px){
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+.front-end-title, .back-end-title,.more-title{
+    font-weight: 700;
+    font-size: clamp(20px, 3vw, 30px);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
+.html-icon, .css-icon,
+.javascript-icon,.github-icon,
+ .mysql-icon, .python-icon,
+ .matlab-icon, .arduino-icon,
+ .c-icon{
+    padding: 10px;
+    height: auto;
+}
+.html-icon {
+    min-width: 130px;
+}
+.css-icon{
+    max-width: 130px;
+}
+
+.javascript-icon{
+    max-width: 110px;
+}
+
+.icon-title{
+    font-size: clamp(15px, 3vw, 18px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.github-icon{
+    max-width: 130px;
+}
+.mysql-icon{
+    max-width: 130px;
+}
+.python-icon{
+    max-width: 130px;
+}
+.matlab-icon{
+    max-width: 130px;
+}
+.arduino-icon{
+    max-width: 130px;
+}
+.c-icon{
+    max-width: 120px;
+}

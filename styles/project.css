@@ -1,0 +1,86 @@
+.Projects {
+    top: 2200px;
+    min-height: 3800px;
+    padding: min(50px,10%);
+}
+.project-heading{
+    padding: 50px;
+    text-align: center;
+    font-size:  clamp(30px, 5vw, 48px);
+    font-weight: bold;
+}
+
+.project-container{
+    padding: 2em;
+    background-color: rgb(238, 238, 238);
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+.project-thumbnail{
+    max-width: 90%;
+    height: auto;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.project-title{
+    font-size: clamp(20px, 3vw, 30px);
+    font-weight: bold;
+    padding: 10px;
+}
+
+.project-description{
+    font-size: clamp(14px, 3vw, 18px);
+    text-align: justify;
+    padding: 10px;
+}
+
+.tech-used{
+    font-size: clamp(16px, 3vw, 20px);
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: (auto-fit, minmax(120px, 1fr));
+}
+.project-tech{
+    padding: 10px;
+}
+
+.project-icon-html{
+    min-width: 100px;
+    height: auto;
+}
+.project-icon {
+    max-width: 100px;
+    height: auto;
+    padding: 5px;
+}
+.project-button-grid{
+    display: grid;
+    justify-content: center;
+    gap: 15px; 
+    padding: 20px;
+   
+}
+.project-button{
+    padding: 20px 100px; 
+    font-size: clamp(1rem,2vw,2rem);
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    transition: font-weight, background-color 0.15s;
+    cursor: pointer;
+}
+.project-button:hover{
+    font-weight: bold;
+    background-color: rgb(223, 245, 253);
+
+}
+
+
+

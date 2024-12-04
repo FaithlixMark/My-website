@@ -1,0 +1,6 @@
+@media (max-width<=900) {
+    .navigations{
+        font-size: 0;
+    }
+    
+}

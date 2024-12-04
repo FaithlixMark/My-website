@@ -1,0 +1,56 @@
+.About {
+    top: 600px;
+    min-height: 600px;
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about-grid {
+    max-width: 900px;
+    min-height:400px;
+}
+.about-title{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: clamp(30px, 5vw, 48px);
+    padding: 10px;
+}
+.about-container{
+    max-width: 900px;
+    min-height:500px;
+    display: flex;
+    gap: 15px;
+}
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+.my-profile{
+    max-width: 50%;
+    height: auto;
+    border-radius: 300px;
+    padding: 15px;
+}
+.about-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: clamp(20px, 3vw, 30px);
+    padding: 20px;
+    font-weight: lighter;
+}
+.about-info1,.about-info2, .about-info3{
+    text-align: justify;
+    padding: 20px;
+}
+.highlight{
+    font-weight: bold;
+    color: rgb(1, 170, 255);
+}
