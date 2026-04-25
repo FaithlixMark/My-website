@@ -25,13 +25,13 @@
     padding: 10px;
 }
 .faithlix{
-    color: rgb(9, 124, 182);
+    color: rgb(0, 103, 185);
 }
 .qoute{
     font-size: clamp(10px, 3vw, 28px);
     font-style: italic;
     font-weight: 700;
-    color: rgb(9, 124, 182);
+    color: rgb(0, 103, 185);
 }
 
 
