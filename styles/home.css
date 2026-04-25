@@ -28,7 +28,7 @@
     color: rgb(0, 103, 185);
 }
 .qoute{
-    font-size: clamp(10px, 3vw, 28px);
+    font-size: clamp(20px, 3vw, 28px);
     font-style: italic;
     font-weight: 700;
     color: rgb(0, 103, 185);
