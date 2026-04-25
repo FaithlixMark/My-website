@@ -25,7 +25,7 @@
     color: white;
     
 }
-.front-end-grid, .back-end-grid, .more-grid{
+.front-end-grid, .back-end-grid, .more-grid, .program-lang-grid{
     min-width: 70%;
     max-height: 20%;
     border: dashed;
@@ -36,7 +36,7 @@
 .icon-container{
     padding: 10px
 }
-.front-end-icons, .back-end-icons, .more-icons{
+.front-end-icons, .back-end-icons, .more-icons, .program-lang-grid-icons{
     display: grid;
     text-align: center;
     grid-template-columns: 1fr;
@@ -50,7 +50,7 @@
         grid-template-columns: repeat(4, 1fr);
     }
 }
-.front-end-title, .back-end-title,.more-title{
+.front-end-title, .back-end-title,.more-title, .program-lang-grid-title{
     font-weight: 700;
     font-size: clamp(20px, 3vw, 30px);
     display: flex;
