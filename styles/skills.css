@@ -25,7 +25,9 @@
     color: white;
     
 }
-.front-end-grid, .back-end-grid, .more-grid, .program-lang-grid, .dv-grid{
+.front-end-grid, .back-end-grid, .more-grid, 
+.program-lang-grid, .dv-grid, .version-control-grid,
+.ci-cd-grid{
     min-width: 70%;
     max-height: 20%;
     border: dashed;
@@ -36,7 +38,9 @@
 .icon-container{
     padding: 10px
 }
-.front-end-icons, .back-end-icons, .more-icons, .program-lang-grid-icons, .dv-grid-icons{
+.front-end-icons, .back-end-icons, .more-icons, 
+.program-lang-grid-icons, .dv-grid-icons, 
+.version-control-icons, .ci-cd-icons{
     display: grid;
     text-align: center;
     grid-template-columns: 1fr;
@@ -50,7 +54,9 @@
         grid-template-columns: repeat(4, 1fr);
     }
 }
-.front-end-title, .back-end-title,.more-title, .program-lang-grid-title, .dv-grid-title{
+.front-end-title, .back-end-title,.more-title, 
+.program-lang-grid-title, .dv-grid-title,
+.version-control-title, .ci-cd-title{
     font-weight: 700;
     font-size: clamp(20px, 3vw, 30px);
     display: flex;
@@ -63,20 +69,15 @@
 .javascript-icon,.github-icon,
  .mysql-icon, .python-icon,
  .matlab-icon, .arduino-icon,
- .c-icon{
+ .c-icon, .sv-icon, .cadence-icon, 
+ .uvm-icon, .perforce-icon, .git-icon,
+ .jenkins-icon, .perl-icon, .shell-icon,
+ .claude-icon, .ca-icon, .vscode-icon,
+ .linux-icon {
     padding: 10px;
     height: auto;
 }
-.html-icon {
-    min-width: 130px;
-}
-.css-icon{
-    max-width: 130px;
-}
 
-.javascript-icon{
-    max-width: 110px;
-}
 
 .icon-title{
     font-size: clamp(15px, 3vw, 18px);
@@ -85,21 +86,35 @@
     align-items: center;
 }
 
-.github-icon{
+.github-icon, .mysql-icon, .python-icon, 
+.matlab-icon, .arduino-icon, .html-icon, 
+.css-icon, .sv-icon, .git-icon, .shell-icon,
+.claude-icon, .ca-icon, .vscode-icon {
     max-width: 130px;
 }
-.mysql-icon{
-    max-width: 130px;
+
+.html-icon {
+    min-width: 130px;
 }
-.python-icon{
-    max-width: 130px;
+
+.uvm-icon{
+    max-width: 180px;
 }
-.matlab-icon{
-    max-width: 130px;
+.cadence-icon{
+    max-width: 140px;
 }
-.arduino-icon{
-    max-width: 130px;
+
+.javascript-icon{
+    max-width: 110px;
 }
-.c-icon{
+.c-icon, .perl-icon{
     max-width: 120px;
+}
+
+.perforce-icon, .linux-icon{
+    max-width: 150px;
+}
+
+.jenkins-icon{
+    max-width: 180px;
 }
